@@ -129,7 +129,7 @@ export default function LandingPage() {
           description: "Your professional website will be perfectly responsive for customers on the go, looking great on any screen size.",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/factory-engineers-using-green-screen-laptop-increase-energy-output_482257-120517.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg"
       imageAlt="Laptop showing website management and security features"
       mediaAnimation="slide-up"
     />
@@ -146,7 +146,7 @@ export default function LandingPage() {
           id: "hospitality",
           name: "Hospitality",
           price: "Boost Bookings",
-          imageSrc: "http://img.b2bpic.net/free-psd/delicious-food-landing-page_23-2149019901.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309170119-w9ax7xtf.jpg",
           imageAlt: "Website mockup for a bar or restaurant",
         },
         {
@@ -160,7 +160,7 @@ export default function LandingPage() {
           id: "professional",
           name: "Professional",
           price: "Enhance Credibility",
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-senior-man-pointing-laptop-video-conference_482257-4945.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309265794-49b0hmxx.jpg",
           imageAlt: "Website mockup for a consulting or real estate agency",
         },
       ]}
@@ -229,7 +229,7 @@ export default function LandingPage() {
           id: 3,
           title: "The Launch: 24/7 Management Begins",
           description: "Your premium site goes live, ready to attract customers. We then begin our continuous 24/7 managed hosting and concierge support.",
-          imageSrc: "http://img.b2bpic.net/free-vector/startup-modern-landing-page_52683-7667.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309361538-6g4b8tx7.jpg",
           imageAlt: "Illustration of website launch",
         },
       ]}
