@@ -215,7 +215,7 @@ export default function LandingPage() {
           id: 1,
           title: "The Brief: 10-Minute Discovery",
           description: "A quick, focused call to understand your brand, goals, and unique vision for your online presence. We listen, you talk.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-rate-charts-papers-with-analysis-information-desk-man-woman-looking-files-plan-project-presentation-startup-office-colleagues-doing-teamwork-strategy_482257-28125.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309555236-96amc8zb.jpg",
           imageAlt: "Illustration of a business brief",
         },
         {
