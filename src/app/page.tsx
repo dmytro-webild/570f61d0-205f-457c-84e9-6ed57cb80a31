@@ -222,7 +222,7 @@ export default function LandingPage() {
           id: 2,
           title: "The Build: Custom Site in 48 Hours",
           description: "Leveraging advanced design and rapid development, we engineer your custom website with precision and speed, pixel-perfect.",
-          imageSrc: "http://img.b2bpic.net/free-vector/flat-construction-template_23-2147745727.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg",
           imageAlt: "Illustration of website building process",
         },
         {
