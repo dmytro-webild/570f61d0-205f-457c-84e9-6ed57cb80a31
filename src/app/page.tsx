@@ -93,7 +93,7 @@ export default function LandingPage() {
           imageAlt: "Tablet showing an automotive repair service website",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-psd/stop-fake-news-web-page_23-2149004001.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561177158-2mzjghot.jpg",
           imageAlt: "Laptop with a professional real estate website",
         },
         {
