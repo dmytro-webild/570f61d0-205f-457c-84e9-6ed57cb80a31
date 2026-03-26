@@ -150,7 +150,7 @@ export default function LandingPage() {
           id: 3,
           title: "The Launch: 24/7 Management Begins",          description: "Your premium site goes live, ready to attract customers. We then begin our continuous 24/7 managed hosting and concierge support.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309361538-6g4b8tx7.jpg",          imageAlt: "Illustration of website launch"},
       ]}
-      title="Your Premium Website in 3 Simple Steps."
+      title="Your Best Website in 3 Simple Steps."
       description="Get your business online faster than ever before with our streamlined process, designed for efficiency and exceptional results."
     />
   </div>
