@@ -66,7 +66,7 @@ export default function LandingPage() {
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561011439-r6j1wgbn.jpg",          imageAlt: "Tablet showing an automotive repair service website"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561177158-2mzjghot.jpg",          imageAlt: "Laptop with a professional real estate website"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774562402918-6yj8546n.jpg",          imageAlt: "Laptop with a professional real estate website"},
         {
           imageSrc: "http://img.b2bpic.net/free-vector/gradient-landing-page-template-cyber-monday-sale_23-2150842106.jpg",          imageAlt: "Variety of devices showing a local business website"},
       ]}
