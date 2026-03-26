@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
-import FooterBase from '@/components/sections/footer/FooterBase';
+import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
@@ -166,43 +166,10 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterBase
-      columns={[
-        {
-          title: "Services",          items: [
-            {
-              label: "Web Design",              href: "#solutions"},
-            {
-              label: "Managed Hosting",              href: "#benefits"},
-            {
-              label: "24/7 Support",              href: "#benefits"},
-            {
-              label: "SEO Optimization",              href: "#process"},
-          ],
-        },
-        {
-          title: "Company",          items: [
-            {
-              label: "About Us",              href: "#"},
-            {
-              label: "Pricing",              href: "#pricing"},
-            {
-              label: "Our Process",              href: "#process"},
-            {
-              label: "Contact Us",              href: "#contact"},
-          ],
-        },
-        {
-          title: "Legal",          items: [
-            {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms of Service",              href: "#"},
-          ],
-        },
-      ]}
+      <FooterLogoReveal
       logoText="Ireland Pro"
-      copyrightText="© 2026 | Ireland Pro. All rights reserved."
+      leftLink={{ text: "© 2026 | Ireland Pro", href: "#" }}
+      rightLink={{ text: "Privacy Policy", href: "#" }}
     />
   </div>
       </ReactLenis>
