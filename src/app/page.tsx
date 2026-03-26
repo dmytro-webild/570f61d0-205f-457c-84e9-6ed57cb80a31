@@ -77,19 +77,19 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-vector/grand-re-opening-social-media-stories_23-2148541571.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560985697-lkuig336.jpg",
           imageAlt: "Responsive web design for a local business on devices",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/mechanic-using-digital-tablet-repair-garage_1170-1404.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560994338-5t7012dd.jpg",
           imageAlt: "MacBook showing a modern local shop website",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/minimal-smartphone-rocks-arrangement_23-2149672672.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561002333-njx5nrn2.jpg",
           imageAlt: "iPhone displaying a clean cafe website",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-vector/business-landing-page-with-photo_23-2148248050.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561011439-r6j1wgbn.jpg",
           imageAlt: "Tablet showing an automotive repair service website",
         },
         {
