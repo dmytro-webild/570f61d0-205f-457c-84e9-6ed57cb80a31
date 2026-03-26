@@ -90,7 +90,7 @@ export default function LandingPage() {
         {
           title: "Mobile Optimized",          description: "Your professional website will be perfectly responsive for customers on the go, looking great on any screen size."},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg?_wi=1"
       imageAlt="Laptop showing website management and security features"
       mediaAnimation="slide-up"
     />
@@ -145,7 +145,7 @@ export default function LandingPage() {
           title: "The Brief: 10-Minute Discovery",          description: "A quick, focused call to understand your brand, goals, and unique vision for your online presence. We listen, you talk.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309725674-p24f8ud4.jpg",          imageAlt: "Illustration of a business brief"},
         {
           id: 2,
-          title: "The Build: Custom Site in 48 Hours",          description: "Leveraging advanced design and rapid development, we engineer your custom website with precision and speed, pixel-perfect.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg",          imageAlt: "Illustration of website building process"},
+          title: "The Build: Custom Site in 48 Hours",          description: "Leveraging advanced design and rapid development, we engineer your custom website with precision and speed, pixel-perfect.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg?_wi=2",          imageAlt: "Illustration of website building process"},
         {
           id: 3,
           title: "The Launch: 24/7 Management Begins",          description: "Your premium site goes live, ready to attract customers. We then begin our continuous 24/7 managed hosting and concierge support.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309361538-6g4b8tx7.jpg",          imageAlt: "Illustration of website launch"},
