@@ -42,7 +42,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="Webild Agency"
+      brandName="Ireland Pro "
     />
   </div>
 
@@ -204,8 +204,8 @@ export default function LandingPage() {
           ],
         },
       ]}
-      logoText="Webild Agency"
-      copyrightText="© 2024 | Webild Agency. All rights reserved."
+      logoText="Ireland Pro"
+      copyrightText="© 2026 | Ireland Pro. All rights reserved."
     />
   </div>
       </ReactLenis>
