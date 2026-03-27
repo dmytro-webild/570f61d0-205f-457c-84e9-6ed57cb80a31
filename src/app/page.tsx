@@ -113,7 +113,7 @@ export default function LandingPage() {
       title="Our Performance"
       description="Quantifiable results for every project we undertake."
       animationType="slide-up"
-      textboxLayout="centered"
+      textboxLayout="default"
       metrics={[
         { id: "m1", title: "Speed", subtitle: "Average load time", category: "Performance", value: "<1s" },
         { id: "m2", title: "Uptime", subtitle: "Guaranteed reliability", category: "Infrastructure", value: "99.9%" },
