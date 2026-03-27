@@ -10,6 +10,7 @@ import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/Nav
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SplitAbout from '@/components/sections/about/SplitAbout';
+import MetricCardTen from '@/components/sections/metrics/MetricCardTen';
 
 export default function LandingPage() {
   return (
@@ -29,18 +30,13 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",          id: "home"},
-        {
-          name: "Benefits",          id: "benefits"},
-        {
-          name: "Solutions",          id: "solutions"},
-        {
-          name: "Pricing",          id: "pricing"},
-        {
-          name: "Process",          id: "process"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Home", id: "home" },
+        { name: "Benefits", id: "benefits" },
+        { name: "Solutions", id: "solutions" },
+        { name: "Pricing", id: "pricing" },
+        { name: "Metrics", id: "metrics" },
+        { name: "Process", id: "process" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Ireland Pro "
     />
@@ -48,27 +44,17 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardGallery
-      background={{
-        variant: "plain"}}
+      background={{ variant: "plain" }}
       title="Your Business Deserves a Premium Online Presence."
       description="Professional design, lightning-fast hosting, and 24/7 maintenance. Launched in just 48 hours."
-      buttons={[
-        {
-          text: "Get Started for $299",          href: "#contact"},
-      ]}
+      buttons={[{ text: "Get Started for $299", href: "#contact" }]}
       mediaItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560985697-lkuig336.jpg",          imageAlt: "Responsive web design for a local business on devices"},
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560994338-5t7012dd.jpg",          imageAlt: "MacBook showing a modern local shop website"},
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561002333-njx5nrn2.jpg",          imageAlt: "iPhone displaying a clean cafe website"},
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561011439-r6j1wgbn.jpg",          imageAlt: "Tablet showing an automotive repair service website"},
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774562402918-6yj8546n.jpg",          imageAlt: "Laptop with a professional real estate website"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-vector/gradient-landing-page-template-cyber-monday-sale_23-2150842106.jpg",          imageAlt: "Variety of devices showing a local business website"},
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560985697-lkuig336.jpg", imageAlt: "Responsive web design for a local business on devices" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560994338-5t7012dd.jpg", imageAlt: "MacBook showing a modern local shop website" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561002333-njx5nrn2.jpg", imageAlt: "iPhone displaying a clean cafe website" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774561011439-r6j1wgbn.jpg", imageAlt: "Tablet showing an automotive repair service website" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774562402918-6yj8546n.jpg", imageAlt: "Laptop with a professional real estate website" },
+        { imageSrc: "http://img.b2bpic.net/free-vector/gradient-landing-page-template-cyber-monday-sale_23-2150842106.jpg", imageAlt: "Variety of devices showing a local business website" },
       ]}
       mediaAnimation="slide-up"
     />
@@ -81,14 +67,10 @@ export default function LandingPage() {
       title="Total Care: Managed Hosting & Concierge Support for Just $29/mo."
       description="Experience peace of mind with our comprehensive website service. We handle all the technical details, security, and updates so you can focus on your business."
       bulletPoints={[
-        {
-          title: "Bulletproof Security",          description: "We handle SSL, firewalls, and daily backups to keep your site safe and sound."},
-        {
-          title: "Ultra-Fast Hosting",          description: "Your site stays online and loads instantly on all devices, ensuring a seamless user experience."},
-        {
-          title: "Unlimited Updates",          description: "Need to change a price or a photo? Just text us, and we'll handle the updates for you, no fuss."},
-        {
-          title: "Mobile Optimized",          description: "Your professional website will be perfectly responsive for customers on the go, looking great on any screen size."},
+        { title: "Bulletproof Security", description: "We handle SSL, firewalls, and daily backups to keep your site safe and sound." },
+        { title: "Ultra-Fast Hosting", description: "Your site stays online and loads instantly on all devices, ensuring a seamless user experience." },
+        { title: "Unlimited Updates", description: "Need to change a price or a photo? Just text us, and we'll handle the updates for you, no fuss." },
+        { title: "Mobile Optimized", description: "Your professional website will be perfectly responsive for customers on the go, looking great on any screen size." },
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg?_wi=1"
       imageAlt="Laptop showing website management and security features"
@@ -103,12 +85,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        {
-          id: "hospitality",          name: "Hospitality",          price: "Boost Bookings",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309170119-w9ax7xtf.jpg",          imageAlt: "Website mockup for a bar or restaurant"},
-        {
-          id: "services",          name: "Services",          price: "Attract Clients",          imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196200.jpg",          imageAlt: "Website mockup for a salon or auto repair shop"},
-        {
-          id: "professional",          name: "Professional",          price: "Enhance Credibility",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309265794-49b0hmxx.jpg",          imageAlt: "Website mockup for a consulting or real estate agency"},
+        { id: "hospitality", name: "Hospitality", price: "Boost Bookings", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309170119-w9ax7xtf.jpg", imageAlt: "Website mockup for a bar or restaurant" },
+        { id: "services", name: "Services", price: "Attract Clients", imageSrc: "http://img.b2bpic.net/free-photo/coffee-shop-small-business_23-2149196200.jpg", imageAlt: "Website mockup for a salon or auto repair shop" },
+        { id: "professional", name: "Professional", price: "Enhance Credibility", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309265794-49b0hmxx.jpg", imageAlt: "Website mockup for a consulting or real estate agency" },
       ]}
       title="Tailored Solutions for Local Businesses."
       description="Whether you run a bar, a salon, or a real estate agency, we craft custom websites that connect you with your local customers and drive engagement."
@@ -121,17 +100,25 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       plans={[
-        {
-          id: "setup",          badge: "One-Time",          price: "$299",          subtitle: "Setup Fee",          features: [
-            "Professional Design & Build",            "Custom Content Integration",            "Initial SEO Setup",            "Site Launch in 48 Hours"],
-        },
-        {
-          id: "monthly",          badge: "Monthly",          price: "$29/mo",          subtitle: "Managed Hosting & Support",          features: [
-            "Bulletproof Security (SSL, Firewalls, Backups)",            "Ultra-Fast Hosting",            "Unlimited Content Updates (Just text us!)",            "Mobile Optimization & Responsiveness",            "24/7 Technical Support"],
-        },
+        { id: "setup", badge: "One-Time", price: "$299", subtitle: "Setup Fee", features: ["Professional Design & Build", "Custom Content Integration", "Initial SEO Setup", "Site Launch in 48 Hours"] },
+        { id: "monthly", badge: "Monthly", price: "$29/mo", subtitle: "Managed Hosting & Support", features: ["Bulletproof Security (SSL, Firewalls, Backups)", "Ultra-Fast Hosting", "Unlimited Content Updates (Just text us!)", "Mobile Optimization & Responsiveness", "24/7 Technical Support"] },
       ]}
       title="Transparent Pricing, Unbeatable Value."
       description="No hidden fees, no surprises. Just a clear, affordable path to a premium online presence for your local brand."
+    />
+  </div>
+
+  <div id="metrics" data-section="metrics">
+    <MetricCardTen
+      title="Our Performance"
+      description="Quantifiable results for every project we undertake."
+      animationType="slide-up"
+      textboxLayout="centered"
+      metrics={[
+        { id: "m1", title: "Speed", subtitle: "Average load time", category: "Performance", value: "<1s" },
+        { id: "m2", title: "Uptime", subtitle: "Guaranteed reliability", category: "Infrastructure", value: "99.9%" },
+        { id: "m3", title: "SEO", subtitle: "Average score", category: "Marketing", value: "95/100" }
+      ]}
     />
   </div>
 
@@ -140,15 +127,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       features={[
-        {
-          id: 1,
-          title: "The Brief: 10-Minute Discovery",          description: "A quick, focused call to understand your brand, goals, and unique vision for your online presence. We listen, you talk.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309725674-p24f8ud4.jpg",          imageAlt: "Illustration of a business brief"},
-        {
-          id: 2,
-          title: "The Build: Custom Site in 48 Hours",          description: "Leveraging advanced design and rapid development, we engineer your custom website with precision and speed, pixel-perfect.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg?_wi=2",          imageAlt: "Illustration of website building process"},
-        {
-          id: 3,
-          title: "The Launch: 24/7 Management Begins",          description: "Your premium site goes live, ready to attract customers. We then begin our continuous 24/7 managed hosting and concierge support.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309361538-6g4b8tx7.jpg",          imageAlt: "Illustration of website launch"},
+        { id: 1, title: "The Brief: 10-Minute Discovery", description: "A quick, focused call to understand your brand, goals, and unique vision for your online presence. We listen, you talk.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309725674-p24f8ud4.jpg", imageAlt: "Illustration of a business brief" },
+        { id: 2, title: "The Build: Custom Site in 48 Hours", description: "Leveraging advanced design and rapid development, we engineer your custom website with precision and speed, pixel-perfect.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309042072-0i0banew.jpg?_wi=2", imageAlt: "Illustration of website building process" },
+        { id: 3, title: "The Launch: 24/7 Management Begins", description: "Your premium site goes live, ready to attract customers. We then begin our continuous 24/7 managed hosting and concierge support.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774309361538-6g4b8tx7.jpg", imageAlt: "Illustration of website launch" },
       ]}
       title="Your Best Website in 3 Simple Steps."
       description="Get your business online faster than ever before with our streamlined process, designed for efficiency and exceptional results."
@@ -158,51 +139,18 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "plain"}}
-      text="Ready to elevate your local business? Get your premium website launched in just 48 hours. Fill out the form below or call us now!\n\n(Fields for Name, Business Type, and Phone Number - form to be implemented via WhatsApp integration.)"
-      buttons={[
-        {
-          text: "Call Now",          href: "tel:+1234567890"},
-      ]}
+      background={{ variant: "plain" }}
+      text="Ready to elevate your local business? Get your premium website launched in just 48 hours. Fill out the form below or call us now!"
+      buttons={[{ text: "Call Now", href: "tel:+1234567890" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBase
       columns={[
-        {
-          title: "Services",          items: [
-            {
-              label: "Web Design",              href: "#solutions"},
-            {
-              label: "Managed Hosting",              href: "#benefits"},
-            {
-              label: "24/7 Support",              href: "#benefits"},
-            {
-              label: "SEO Optimization",              href: "#process"},
-          ],
-        },
-        {
-          title: "Company",          items: [
-            {
-              label: "About Us",              href: "#"},
-            {
-              label: "Pricing",              href: "#pricing"},
-            {
-              label: "Our Process",              href: "#process"},
-            {
-              label: "Contact Us",              href: "#contact"},
-          ],
-        },
-        {
-          title: "Legal",          items: [
-            {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms of Service",              href: "#"},
-          ],
-        },
+        { title: "Services", items: [{ label: "Web Design", href: "#solutions" }, { label: "Managed Hosting", href: "#benefits" }, { label: "24/7 Support", href: "#benefits" }, { label: "SEO Optimization", href: "#process" }] },
+        { title: "Company", items: [{ label: "About Us", href: "#" }, { label: "Pricing", href: "#pricing" }, { label: "Our Process", href: "#process" }, { label: "Contact Us", href: "#contact" }] },
+        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
       ]}
       logoText="Ireland Pro"
       copyrightText="© 2026 | Ireland Pro. All rights reserved."
