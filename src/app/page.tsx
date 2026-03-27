@@ -52,7 +52,10 @@ export default function LandingPage() {
         variant: "plain"}}
       title="Your Business Deserves a Premium Online Presence."
       description="Professional design, lightning-fast hosting, and 24/7 maintenance. Launched in just 48 hours."
-      buttons={[]}
+      buttons={[
+        {
+          text: "Get Started for $299",          href: "#contact"},
+      ]}
       mediaItems={[
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560985697-lkuig336.jpg",          imageAlt: "Responsive web design for a local business on devices"},
