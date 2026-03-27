@@ -114,6 +114,7 @@ export default function LandingPage() {
       description="Quantifiable results for every project we undertake."
       animationType="slide-up"
       textboxLayout="default"
+      useInvertedBackground={false}
       metrics={[
         { id: "m1", title: "Speed", subtitle: "Average load time", category: "Performance", value: "<1s" },
         { id: "m2", title: "Uptime", subtitle: "Guaranteed reliability", category: "Infrastructure", value: "99.9%" },
