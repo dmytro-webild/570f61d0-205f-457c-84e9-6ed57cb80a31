@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
-import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
+import FooterBase from '@/components/sections/footer/FooterBase';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import NavbarStyleFullscreen from '@/components/navbar/NavbarStyleFullscreen/NavbarStyleFullscreen';
 import PricingCardOne from '@/components/sections/pricing/PricingCardOne';
@@ -52,7 +52,10 @@ export default function LandingPage() {
         variant: "plain"}}
       title="Your Business Deserves a Premium Online Presence."
       description="Professional design, lightning-fast hosting, and 24/7 maintenance. Launched in just 48 hours."
-      buttons={[]}
+      buttons={[
+        {
+          text: "Get Started for $299",          href: "#contact"},
+      ]}
       mediaItems={[
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BE6fCFACSBFIM07EvRZBoHqwR5/uploaded-1774560985697-lkuig336.jpg",          imageAlt: "Responsive web design for a local business on devices"},
@@ -166,10 +169,43 @@ export default function LandingPage() {
   </div>
 
   <div id="footer" data-section="footer">
-      <FooterLogoReveal
+      <FooterBase
+      columns={[
+        {
+          title: "Services",          items: [
+            {
+              label: "Web Design",              href: "#solutions"},
+            {
+              label: "Managed Hosting",              href: "#benefits"},
+            {
+              label: "24/7 Support",              href: "#benefits"},
+            {
+              label: "SEO Optimization",              href: "#process"},
+          ],
+        },
+        {
+          title: "Company",          items: [
+            {
+              label: "About Us",              href: "#"},
+            {
+              label: "Pricing",              href: "#pricing"},
+            {
+              label: "Our Process",              href: "#process"},
+            {
+              label: "Contact Us",              href: "#contact"},
+          ],
+        },
+        {
+          title: "Legal",          items: [
+            {
+              label: "Privacy Policy",              href: "#"},
+            {
+              label: "Terms of Service",              href: "#"},
+          ],
+        },
+      ]}
       logoText="Ireland Pro"
-      leftLink={{ text: "© 2026 | Ireland Pro", href: "#" }}
-      rightLink={{ text: "Privacy Policy", href: "#" }}
+      copyrightText="© 2026 | Ireland Pro. All rights reserved."
     />
   </div>
       </ReactLenis>
